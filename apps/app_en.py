@@ -4,10 +4,8 @@ from template import generate_layout
 ##### Label text (EN) #####
 # TODO: Make markdown links open in new tab
 labels = {
-    'language0' : 'Français',
+    'language0' : '...',
     'language_link0' : '/',
-    'language1' : '中文',
-    'language_link1' : '/zh',
     'title' : 'COVID-19 Montreal Dashboard',
     'subtitle' : 'Last update: ' + latest_update_date,
     'cases_montreal_label' : 'Cases (Montreal)',
