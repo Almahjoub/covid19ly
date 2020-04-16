@@ -42,8 +42,8 @@ latest_date = datetime.date.fromisoformat(data['date'].iloc[-1]) + datetime.time
 latest_update_date = latest_date.isoformat()
 
 # # Mini info boxes
-latest_cases = str(int(data['cases_ly'].iloc[-1]))
-latest_deaths = str(int(data['deaths_ly'].iloc[-1]))
-latest_hospitalisations = str(int(data['hospitalisations_ly'].iloc[-1]))
-latest_recovered = str(int(data['recovered_ly'].iloc[-1]))
-latest_negative_tests = str(int(data['negative_tests_ly'].iloc[-1]))
+latest_cases = str(int(data['cases'].iloc[-1]))
+latest_deaths = str(int(data['deaths'].iloc[-1]))
+latest_hospitalisations = str(int(data['hospitalisations'].iloc[-1]))
+latest_recovered = str(int(data['recovered'].iloc[-1]))
+latest_negative_tests = str(int(data['negative_tests'].iloc[-1]))

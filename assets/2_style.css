@@ -559,7 +559,7 @@ there.
 
 @media (max-width: 1500px) {
 #info-container {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 }
 

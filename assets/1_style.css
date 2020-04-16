@@ -66,7 +66,7 @@ p {
 }
 #info-container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 15px;
   margin-top: 15px;
 }
@@ -88,29 +88,23 @@ p {
   margin-bottom: 0px;
   font-size: 1.7rem;
 }
-#cases_mtl {
-  color:#c51515;
-}
-#deaths_mtl {
-  color: #252525;
-}
-#cases_qc {
+#cases {
   color: #c51515;
 }
-#hospitalisations_qc {
+#hospitalisations {
   color: #F87E3F;
   hyphens: auto;
 }
-#icu_qc {
+#icu {
   color: #0083CB;
 }
-#deaths_qc {
+#deaths {
   color: #252525;
 }
-#recovered_qc {
+#recovered {
   color: #249a24;
 }
-#negative_tests_qc {
+#negative_tests {
   color: #39b686;
 }
 #total_cases_box {
